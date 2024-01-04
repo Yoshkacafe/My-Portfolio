@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: 'PT Sans', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+@font-face {
+    font-family: "FortniteFont";
+    src: url(../src/fortnite.otf);
+}
+nav
+{
+    background-color: #2A2A2A;
+}
+nav > #for_hidden_menu
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2A2A2A;
+}
+.link_img
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 200px;
+}
+.right
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.right > .link_img > img
+{
+    width: 70%;
+}
+.nav > a
+{
+    text-decoration: none;
+    color: #B8B8B8;
+    margin: 0 10px;
+}
+.nav
+{
+    font-size: 12px;
+    color: #B8B8B8;
+}
+.icons
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icons > img
+{
+    width: 23px;
+    margin: 0 15px;
+}
+.login
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 10px;
+}
+.login > img
+{
+    width: 23px;
+    margin: 0 5px;
+}
+.login > h2
+{
+    font-size: 12px;
+    color: #B8B8B8;
+}
+.left
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.left > h2
+{
+    font-size: 12px;
+    color: #272727;
+    background-color: #FFFF00;
+    padding: 23px;
+    margin: 0 10px;
+}
+#hovering
+{
+    border-bottom: #FFFF00 solid 5px;
+    padding-bottom: 18px;
+}
+#show
+{
+    width: 100%;
+}
+#info_season
+{
+    width: 33%;
+    margin-top: 4%;
+}
+.infos > h1, .infos > h2
+{
+    font-family: 'FortniteFont';
+    letter-spacing: 0.7px;
+}
+.infos > h1
+{
+    color: white;
+    margin-left: 8.5%;
+    margin-top: 26.7%;
+    letter-spacing: 3px;
+}
+.h2
+{
+    color: black;
+    font-family: "FortniteFont";
+    background-color: #FFFF00;
+    letter-spacing: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 10%;
+    margin-top: 30%;
+}
+#overview
+{
+    display: flex;
+    justify-content: center;
+}
+#overvieww
+{
+    width: 75%;
+    border: white solid 10px;
+    margin-top: 35%;
+}
+#cs
+{
+    width: 28%;
+    margin-top: 15%;
+}
+.second > h1
+{
+    font-size: 85px;
+    /* padding-left: 300px;
+    padding-right: 300px; */
+    color: #333333;
+    font-family: 'FortniteFont';
+    margin-top: 75%;
+    text-align: center;
+}
+.second > p
+{
+    font-size: 30px;
+    /* padding-left: 300px;
+    padding-right: 300px; */
+    color: #333333;
+    font-family: 'FortniteFont';
+    text-align: center;
+}
+.center_img
+{
+    display: flex;
+    justify-content: center;
+    border: rgb(255, 255, 255) solid 40px;
+}
+.second > h2
+{
+    font-size: 85px;
+    /* padding-left: 300px;
+    padding-right: 300px; */
+    color: #333333;
+    font-family: 'FortniteFont';
+    text-align: center;
+}
+.second > img
+{
+    display: flex;
+    justify-content: center;
+}
+.network
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #2A2A2A;
+}
+.network > img
+{
+    width: 2%;
+    margin-right: 18px;
+}
+#rotate
+{
+    transform: rotate(-90deg);
+}
+.return
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #2A2A2A;
+}
+.return > img
+{
+    width: 5%;
+}
+.return > a
+{
+    text-decoration: none;
+    color: #B8B8B8;
+    margin: 0 10px;
+    transition: all .2s ease-in-out;
+}
+.return > a:hover
+{
+    color: #FFFF00;
+}
+.first_line
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #2A2A2A;
+}
+@keyframes bougebougebouge {
+    0%   {margin-top: 0px;}
+    50%  {margin-top: 10px;}
+    100% {margin-top: 0px;}
+
+}
+footer
+{
+    background-color: #2A2A2A;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-top: 80px;
+}
+.seconde_ligne
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #2A2A2A;
+}
+.second_line
+{
+    display: flex;
+    flex-direction: row;
+}
+.second_line > ul
+{
+    list-style-type: none;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+li
+{
+    color: #B8B8B8;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.second_line > ul > li
+{
+    transition: all .3s ease-in-out;
+}
+.second_line > ul > li:hover
+{
+    cursor: pointer;
+    color: #FFFF00;
+}
+.right_part
+{
+    margin-top: 40px;
+}
+.right_part > h1
+{
+    color: #FFFF00;
+    font-size: 12.5px;
+}
+.right_part > img
+{
+    width: 65%;
+}
+.third_line
+{
+    background-color: #2A2A2A;
+    margin-top: 50px;
+}
+h5
+{
+ color: #B8B8B8;
+}
+.end
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 85px;
+    margin-left: 650px;
+    margin-right: 650px;
+    background-color: #FFFF00;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-family: 'FortniteFont';
+    font-size: 30px;
+    text-decoration: none;
+}
+.menu_
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.menu_ > a
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media screen and (min-width:429px) {
+    .burger
+    {
+        display: none;
+    }
+    #hidden_menu
+    {
+        display: none;
+    }
+    #reetour
+    {
+        display: none;
+    }
+}
+
+@media screen and (max-width:428px) {
+    h1
+    {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    h2
+    {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    p
+    {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    img
+    {
+        width: 100%;
+    }
+    .nav
+    {
+        display: none;
+    }
+    .icons
+    {
+        display: none;
+    }
+    .login
+    {
+        display: none;
+    }
+    .burger
+    {
+        display: block;
+    }
+    .burger > a > img
+    {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+
+    }
+    #hidden_menu
+    {
+        display: none;
+    }
+    .cimg
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 79%;
+    }
+    #showw
+    {
+        width: 400%;
+    }
+    .infos
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #info_season
+    {
+        width: 100%;
+        margin-bottom: 70%;
+    }
+    .h2
+    {
+        margin: 0;
+        padding: 15px;
+        letter-spacing: 2px;
+        margin-top: 20%;
+        margin-left: 27%;
+    }
+    footer
+    {
+        padding: 0;
+        padding-left: 5%;
+        padding-bottom: 20%;
+    }
+    .second_line
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .second_line > ul
+    {
+        margin: 0;
+    }
+    .seconde_ligne
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #2A2A2A;
+    }
+    .right_part
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .right_part > img
+    {
+        width: 25%;
+    }
+    .third_line > h5
+    {
+        margin-right: 40px;
+        font-size: 12px;
+    }
+    .second_line > ul > li
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #retour
+    {
+        display: none;
+    }
+    #reetour
+    {
+        display: block;
+        transform: rotate(-45deg);
+        margin-top: 20px;
+    }
+    #reetour > img
+    {
+        width: 50%;
+    }
+    .network > img
+    {
+        width: 10%;
+        margin-right: 18px;
+    }
+}
